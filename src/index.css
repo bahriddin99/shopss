@@ -1,0 +1,16 @@
+*{
+    font-family: 'Satoshi', sans-serif !important; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 375px){
+    body{
+        overflow-x: hidden !important;
+    }
+}

@@ -1,0 +1,12 @@
+.driwer-open-btn{
+    display: none;
+    font-size: 23px;
+    
+}
+
+
+@media screen and (max-width: 375px){
+    .driwer-open-btn{
+        display: block !important;
+    }
+}

@@ -1,0 +1,175 @@
+@font-face {
+    font-family: "Integral CF Regular";
+    src: url("https://db.onlinewebfonts.com/t/f1fcc5aed1e20fc0cdb9f8a7573625bd.eot");
+    src: url("https://db.onlinewebfonts.com/t/f1fcc5aed1e20fc0cdb9f8a7573625bd.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/f1fcc5aed1e20fc0cdb9f8a7573625bd.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/f1fcc5aed1e20fc0cdb9f8a7573625bd.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/f1fcc5aed1e20fc0cdb9f8a7573625bd.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/f1fcc5aed1e20fc0cdb9f8a7573625bd.svg#Integral CF Regular")format("svg");
+}
+
+.intro2{
+    display: none !important;
+}
+
+.intro{
+    background-color: #F2F0F1;
+
+    img{
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.intro-wrapper{
+    position: relative;
+    h1{
+        max-width: 577px;
+        color: #000;
+        font-family: "Integral";
+        font-size: 64px;
+        font-style: normal;
+        font-family: "Integral CF Regular" !important;
+        line-height: 64px; 
+        position: absolute;
+        top: -560px;
+    }
+
+    p:nth-child(4){
+        max-width: 545px;
+        color: rgba(0, 0, 0, 0.60);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        position: absolute;
+        top: -340px;
+        left: 0;
+    }
+
+    button{
+        position: absolute;
+        border-radius: 62px;
+        background: #000;
+        width: 100% !important;
+        max-width: 210px;
+        height: 56px;
+        top: -260px;
+
+        &:hover {
+            background: #000 !important; /* Ensures the background color remains the same on hover */
+            color: #fff !important; /* Ensures the text color remains the same on hover */
+        }
+    }
+
+    ul{
+        display: flex;
+        align-items: center;
+        gap: 64px;
+        position: absolute;
+        top: -150px;
+
+        li{
+            h2{
+                font-weight: 700;
+                font-size: 40px;
+            }
+
+            p{
+                color: rgba(0, 0, 0, 0.60);
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 22px; /* 137.5% */
+            }
+
+        }
+    }
+
+   
+   
+   
+    .star1{
+        position: absolute;
+        top: -600px;
+        right: 0;
+        z-index: 99;
+    } 
+    .star2{
+        position: absolute;
+        top: -270px;
+        width: 56px;
+        height: 56px;
+        right: 600px;
+        z-index: 98;
+    }
+}
+
+.logos-wrapper{
+    background: black;
+}
+
+.logos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 43px 0;
+}
+
+
+@media screen and (max-width: 375px){
+    .logos{
+        gap: 20px 0;
+    }
+
+    .intro{
+        position: relative;
+    }
+
+    .intro1{
+        display: none !important;
+    }
+
+    .intro2{
+        display: block !important;
+        position: absolute;
+        bottom: 220px;
+    }
+
+    .intro-wrapper{
+        width: 100%;
+        margin-top: 40px;
+        padding: 0 15px;
+        height: 953px;
+        h1{
+            top: 0;
+            font-size: 36px !important;
+            line-height: 34px; /* 94.444% */
+        }
+
+        p:nth-child(4){
+            padding: 0 20px;
+            top: 120px;
+            font-size: 14px !important;
+            line-height: 20px; /* 85.714% */
+        }
+
+        button{
+            top: 220px;
+            max-width: 90%;
+        }
+
+        ul{
+            gap: 20px !important;
+            flex-wrap: wrap;
+            justify-content: center !important;
+            top: 320px;
+            li{
+                font-size: 24px !important;
+            }
+        }
+
+    }
+    
+}

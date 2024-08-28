@@ -1,0 +1,51 @@
+.likes-wrapper {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  
+    .likee {
+      position: relative;
+  
+      .delete-btn {
+        z-index: 99;
+        position: absolute;
+        top: 30px;
+        right: 0;
+        color: red;
+        font-size: 18px !important;
+  
+        &:hover {
+          color: red !important;
+        }
+      }
+    }
+  
+    .not-found {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      text-align: center;
+      margin-top: 50px;
+  
+      img {
+        max-width: 300px;
+        margin-bottom: 20px;
+      }
+  
+      p {
+        font-size: 24px;
+        font-weight: 700;
+        color: #000;
+      }
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .likes-wrapper {
+      padding: 0 15px;
+    }
+  }
+  
